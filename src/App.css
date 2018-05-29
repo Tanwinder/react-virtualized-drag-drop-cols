@@ -1,0 +1,40 @@
+.App {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+}
+.container {
+  margin: 2em auto;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.ReactVirtualized__Grid__innerScrollContainer {
+  overflow: auto!important;
+}
+
+.non-item-cell {
+  border: 1px solid lightgray;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+/* .Select-menu-outer {
+  top: 0%!important;
+  bottom: -200px!important;
+} */
+
+/* .Select.is-clearable.is-searchable.Select--multi {
+  position: static!important;
+} */
+
+/* .Select {
+  overflow: visible!important;
+  z-index: 1;
+} */
+/* .Select .Select-menu-outer {
+  z-index: 100000;
+  position: relative;
+} */
